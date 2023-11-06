@@ -1,17 +1,21 @@
-ion-header{
-  ion-toolbar{
-    ion-title{
-      img{
+ion-header {
+  ion-toolbar {
+    --min-height: 100px;
+
+    ion-title {
+      align-items: flex-end;
+
+      img {
         width: 45px;
         vertical-align: middle;
         margin-right: 10px;
       }
 
-      span{ 
+      span {
         font-size: 22px;
       }
 
-      ion-button{
+      ion-button {
         display: block;
       }
     }
