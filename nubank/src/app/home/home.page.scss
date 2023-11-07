@@ -21,3 +21,47 @@ ion-header {
     }
   }
 }
+
+ion-content{
+  .background{
+    .qrcode{
+      width: 100px;
+      margin: 16px auto;
+      display: block;
+    }
+
+    span{
+      display: block;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+  }
+}
+
+ion-footer{
+
+  .container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: .5rem;
+    margin: 5px;
+  }
+
+  .content{
+    width: 100%;
+    height: 80px;
+    background-color: var(--ion-color-primary-tint);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    cursor: default;
+  }
+
+  span{
+    font-size: 14px;
+  }
+
+}
