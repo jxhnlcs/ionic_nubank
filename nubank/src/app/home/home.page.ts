@@ -26,6 +26,8 @@ export class HomePage {
     {icon: 'phone-portrait-outline', text: 'Configurações do app'},
   ];
 
+  public initialStep: number = 0;
+
   constructor() {}
 
 }
