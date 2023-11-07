@@ -18,6 +18,25 @@
       <span>Agência <strong>0000</strong></span>
       <span>Conta <strong>0000000-0</strong></span>
     </div>
+
+    <ion-list lines="full white">
+      <ion-item *ngFor="let item of items" detail>
+        <ion-icon slot="start" [name]="item.icon"></ion-icon>
+        <ion-label>{{ item.text }}</ion-label>
+      </ion-item>
+    </ion-list>
+    <ion-button class="logout" color="light" expand="block" fill="outline">
+      Sair da conta
+    </ion-button>
+  </div>
+
+  <div class="blocks">
+    <ion-card>
+      <ion-item>
+        <ion-icon slot="start" name="card-outline"></ion-icon>
+        <ion-label>Cartão de Crédito</ion-label>
+      </ion-item>
+    </ion-card>
   </div>
 </ion-content>
 
