@@ -61,6 +61,31 @@ ion-content {
       margin-bottom: 100px;
     }
   }
+
+  .blocks{
+    ion-card{
+      .cash{
+        span{
+          &.value{
+            font-size: 30px;
+            display: block;
+          }
+
+          &.blue{
+            color: #0ab9cd;
+          }
+
+          &.green{
+            color: #94c22b;
+          }
+        }
+      }
+
+      .footer{
+        background: #f4f5f8;
+      }
+    }
+  }
 }
 
 ion-footer {
