@@ -57,7 +57,7 @@ ion-content {
 
     .logout{
       margin-top: 32px;
-      margin-bottom: 100px;
+      margin-bottom: 300px;
     }
   }
 
@@ -130,4 +130,8 @@ ion-footer {
     font-size: 14px;
   }
 
+}
+
+.opacity-transition{
+  transition: opacity 0.3s;
 }
